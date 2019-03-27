@@ -11,6 +11,7 @@ namespace Grades
 
         public GradeBook()
         {
+            _name = "empty";
             grades = new List<float>();
         }
 
@@ -37,7 +38,31 @@ namespace Grades
             grades.Add(grade);
         }
 
-        public string Name;
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                if(!String.IsNullOrEmpty(value))
+                {
+                    if(_name != value)
+                    {
+
+                        NameChangedEventArgs args = new NameChangedEventArgs();
+                        args.ExistingName = _name;
+                        args.NewName = value;
+
+                        NameChanged(this, args);
+                    }
+                    _name = value;
+                }
+            }
+        }
+
+        public event NameChangedDelegate NameChanged;
 
         private List<float> grades;
     }

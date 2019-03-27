@@ -5,3 +5,10 @@ c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.csprojAssemblyReferen
 c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
 c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.exe
 c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.pdb
+C:\Users\SamRehlinger\Desktop\GradeBook\Grades\bin\Debug\Grades.exe.config
+C:\Users\SamRehlinger\Desktop\GradeBook\Grades\bin\Debug\Grades.exe
+C:\Users\SamRehlinger\Desktop\GradeBook\Grades\bin\Debug\Grades.pdb
+C:\Users\SamRehlinger\Desktop\GradeBook\Grades\obj\Debug\Grades.csprojAssemblyReference.cache
+C:\Users\SamRehlinger\Desktop\GradeBook\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
+C:\Users\SamRehlinger\Desktop\GradeBook\Grades\obj\Debug\Grades.exe
+C:\Users\SamRehlinger\Desktop\GradeBook\Grades\obj\Debug\Grades.pdb
