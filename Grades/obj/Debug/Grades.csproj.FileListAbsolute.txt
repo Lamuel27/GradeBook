@@ -1,0 +1,7 @@
+c:\users\lamue\source\repos\Grades\Grades\bin\Debug\Grades.exe.config
+c:\users\lamue\source\repos\Grades\Grades\bin\Debug\Grades.exe
+c:\users\lamue\source\repos\Grades\Grades\bin\Debug\Grades.pdb
+c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.csprojAssemblyReference.cache
+c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
+c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.exe
+c:\users\lamue\source\repos\Grades\Grades\obj\Debug\Grades.pdb
