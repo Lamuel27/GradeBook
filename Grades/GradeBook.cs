@@ -17,11 +17,11 @@ namespace Grades
 
         public GradeStatistics ComputeStatistics()
         {
-            GradeStatistics stats =  new GradeStatistics();
+            GradeStatistics stats = new GradeStatistics();
             stats.HighestGrade = 0;
 
             float sum = 0;
-            foreach(float grade in grades)
+            foreach (float grade in grades)
             {
                 stats.HighestGrade = Math.Max(grade, stats.HighestGrade);
                 stats.LowestGrade = Math.Min(grade, stats.LowestGrade);
@@ -46,9 +46,9 @@ namespace Grades
             }
             set
             {
-                if(!String.IsNullOrEmpty(value))
+                if (!String.IsNullOrEmpty(value))
                 {
-                    if(_name != value)
+                    if (_name != value)
                     {
 
                         NameChangedEventArgs args = new NameChangedEventArgs();
@@ -65,5 +65,6 @@ namespace Grades
         public event NameChangedDelegate NameChanged;
 
         private List<float> grades;
+        private string _name;
     }
 }

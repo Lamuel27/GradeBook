@@ -11,7 +11,7 @@ namespace Grades
         static void Main(string[] args)
         {
 
-           
+
             GradeBook book = new GradeBook();
 
             book.NameChanged += OnNameChanged;
@@ -32,7 +32,7 @@ namespace Grades
             Console.WriteLine(book.Name);
             WriteResult("Average", stats.AverageGrade);
             WriteResult("Highest", (int)stats.HighestGrade);
-            WriteResult($"{description}: {result:C}", stats.LowestGrade); //{1:C}{1:F2}
+            WriteResult("Lowest", stats.LowestGrade); 
         }
 
         static void OnNameChanged(object sender, NameChangedEventArgs args)
@@ -41,13 +41,13 @@ namespace Grades
         }
 
         static void WriteResult(string description, int result)
-            {
+        {
             Console.WriteLine(description + ": " + result);
-            }
+        }
 
         static void WriteResult(string description, float result)
-            {
-            Console.WriteLine(description + ": " + result);
-            }
+        {
+            Console.WriteLine($"{description}: {result:C}"); //{1:C}{1:F2}
+        }
     }
 }
